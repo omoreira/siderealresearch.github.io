@@ -12,7 +12,7 @@ Thank you for your patience!
 ### Sidereal Publishing Lab
 This page is under construction. We will be up and running soon.
 Thank you for your patience!
-#### Sidereal Academic Writing Library
+#### Sidereal Academic Writing Tutorials
 This page is under construction. We will be up and running soon.
 Thank you for your patience!
 
