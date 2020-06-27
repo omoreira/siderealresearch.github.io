@@ -1,5 +1,7 @@
-theme: jekyll-theme-cayman
 title: Sidereal Research
 description: We will be up and running soon. Thank you for your patience!
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-cayman
 
         
