@@ -1,3 +1,6 @@
 theme: jekyll-theme-cayman
 title: Sidereal Research
-description: 
+description: We will be up and running soon. Thank you for your patience!
+ <a href="{{#Sidereal_Research_Lab}}" class="btn">Sidereal Research Lab</a>
+ <a href="{{#Sidereal_Publishing_Lab}}" class="btn">Sidereal Publishing Lab</a>
+ <a href="{{#Sidereal_Science_Outreach_Lab}}" class="btn">Sidereal Science Outreach Lab</a>
