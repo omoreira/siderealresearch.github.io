@@ -1,5 +1,5 @@
 ---
-layout: _layouts/default.html
+layout: default.html
 ---
 ## Welcome Sidereal Reseach
 ### Sidereal Research Lab
