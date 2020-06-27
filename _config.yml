@@ -1,5 +1,8 @@
 title: Sidereal Research
 description: We will be up and running soon. Thank you for your patience!
+        <a href="{{ https://omoreira.github.io/siderealresearch.github.io/#sidereal-research-lab}}" class="btn">Sidereal Research Lab</a> 
+        <a href="{{ https://omoreira.github.io/siderealresearch.github.io/#sidereal-publishing-lab }}" class="btn">Sidereal Publishing Lab</a> 
+        <a href="{{ https://omoreira.github.io/siderealresearch.github.io/#sidereal-science-outreach-lab }}" class="btn">Sidereal Science Outreach Lab</a>
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
