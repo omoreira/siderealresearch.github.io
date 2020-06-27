@@ -1,0 +1,12 @@
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ site.title | default: Sidereal Research }}</h1>
+      <h2 class="project-tagline">{{ site.description | default:  }}</h2>
+      <h1 class="project-name">{{ page.title | default: site.title | default: Sidereal Research }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default:  }}</h2>
+      {% if site.github.is_project_page %}
+        <a href="{{ https://omoreira.github.io/siderealresearch.github.io/research }}" class="btn">Sidereal Research Lab</a>
+        <a href="{{ https://omoreira.github.io/siderealresearch.github.io/publishing }}" class="btn">Sidereal Research Lab</a>
+        <a href="{{ https://omoreira.github.io/siderealresearch.github.io/outreach }}" class="btn">Sidereal Science Outreach Lab</a>
+      {% endif %}
