@@ -7,4 +7,5 @@ description:
         <a href="{{ https://omoreira.github.io/siderealresearch.github.io/publishing }}" class="btn">Sidereal Research Lab</a>
         <a href="{{ https://omoreira.github.io/siderealresearch.github.io/outreach }}" class="btn">Sidereal Science Outreach Lab</a>
         <br>
+layout: _layout/default.html
         
