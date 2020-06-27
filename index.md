@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ## Welcome Sidereal Reseach
 ### Sidereal Research Lab
 #### Sidereal Research Digital Library
