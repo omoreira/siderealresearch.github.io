@@ -1,34 +1,40 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="{{ site.lang | default: "en-US" }}">
   <head>
+
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
     <meta charset="UTF-8">
 
-<!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Welcome Sidereal Reseach | Sidereal Research</title>
-<meta name="generator" content="Jekyll v3.8.7" />
-<meta property="og:title" content="Welcome Sidereal Reseach" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="We will be up and running soon. Thank you for your patience! Sidereal Research Lab Sidereal Research Lab Sidereal Science Outreach Lab" />
-<meta property="og:description" content="We will be up and running soon. Thank you for your patience! Sidereal Research Lab Sidereal Research Lab Sidereal Science Outreach Lab" />
-<link rel="canonical" href="https://omoreira.github.io/siderealresearch.github.io/" />
-<meta property="og:url" content="https://omoreira.github.io/siderealresearch.github.io/" />
-<meta property="og:site_name" content="Sidereal Research" />
-<script type="application/ld+json">
-{"headline":"Welcome Sidereal Reseach","@type":"WebSite","url":"https://omoreira.github.io/siderealresearch.github.io/","name":"Sidereal Research","description":"We will be up and running soon. Thank you for your patience! Sidereal Research Lab Sidereal Research Lab Sidereal Science Outreach Lab","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
+{% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="/siderealresearch.github.io/assets/css/style.css?v=6d2b006e5dc877653a5817f8be55798aa5f425f9">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }">
   </head>
   <body>
-    <section class="page-header">
-      <h1 class="project-name">Sidereal Research</h1>
-      <h2 class="project-tagline">We will be up and running soon. Thank you for your patience!</h2>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      {% if site.github.is_project_page %}
         <a href="{{ https://omoreira.github.io/siderealresearch.github.io/research }}" class="btn">Sidereal Research Lab</a> 
-        <a href="{{ https://omoreira.github.io/siderealresearch.github.io/publishing }}" class="btn">Sidereal Research Lab</a> 
-        <a href="{{ https://omoreira.github.io/siderealresearch.github.io/outreach }}" class="btn">Sidereal Science Outreach Lab</a> <br>
-    </section>
+        <a href="{{ https://omoreira.github.io/siderealresearch.github.io/publishing }}" class="btn">Sidereal Publishing Lab</a> 
+        <a href="{{ https://omoreira.github.io/siderealresearch.github.io/outreach }}" class="btn">Sidereal Science Outreach Lab</a>
+      {% endif %}
+      {% if site.show_downloads %}
+        <a href="{{}}" class="btn"></a>
+        <a href="{{}}" class="btn"></a>
+      {% endif %}
+    </header>
     <main id="content" class="main-content" role="main">
       {{ content }}
       <footer class="site-footer">
